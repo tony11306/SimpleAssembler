@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SystemProgramming.iml" filepath="$PROJECT_DIR$/SystemProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleAssembler.iml" filepath="$PROJECT_DIR$/SimpleAssembler.iml" />
     </modules>
   </component>
 </project>
