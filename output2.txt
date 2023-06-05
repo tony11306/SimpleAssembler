@@ -1,0 +1,76 @@
+=SYMTAB=
+COPY       0000      
+FIRST      0000      
+CLOOP      0006      
+ENDFIL     001A      
+EOF        002D      
+RETADR     0030      
+LENGTH     0033      
+BUFFER     0036      
+MAXLEN     1000      
+BUFEND     1036      
+RDREC      1036      
+RLOOP      1040      
+EXIT       1056      
+INPUT      105C      
+WRREC      105D      
+WLOOP      1062      
+REF        1073      
+OUTPUT     1079      
+
+=OPTAB=
+0000    NONE
+0000    17202D      pc-relative      nixbpe:110010
+0003    69202D      pc-relative      nixbpe:010010
+0006    NONE
+0006    4B101036    format 4         nixbpe:110001
+000a    032026      pc-relative      nixbpe:110010
+000d    290000      absolute         nixbpe:010000
+0010    332007      pc-relative      nixbpe:110010
+0013    4B10105D    format 4         nixbpe:110001
+0017    3F2FEC      pc-relative      nixbpe:110010
+001a    032010      pc-relative      nixbpe:110010
+001d    0F2016      pc-relative      nixbpe:110010
+0020    010003      absolute         nixbpe:010000
+0023    0F200D      pc-relative      nixbpe:110010
+0026    4B10105D    format 4         nixbpe:110001
+002a    3E2003      pc-relative      nixbpe:100010
+002d    454F46      simple           nixbpe:000000
+0030    NONE
+0033    NONE
+0036    NONE
+1036    NONE
+1036    NONE
+comment
+comment
+comment
+1036    B410        format 2         nixbpe:000000
+1038    B400        format 2         nixbpe:000000
+103a    B440        format 2         nixbpe:000000
+103c    75101000    format 4         nixbpe:010001
+1040    E32019      pc-relative      nixbpe:110010
+1043    332FFA      pc-relative      nixbpe:110010
+1046    DB2013      pc-relative      nixbpe:110010
+1049    A004        format 2         nixbpe:000000
+104b    332008      pc-relative      nixbpe:110010
+104e    57C003      base-relative    nixbpe:111100
+1051    B850        format 2         nixbpe:000000
+1053    3B2FEA      pc-relative      nixbpe:110010
+1056    134000      base-relative    nixbpe:110100
+1059    4F0000      absolute         nixbpe:000000
+105c    F1          simple           nixbpe:000000
+comment
+comment
+comment
+105d    B410        format 2         nixbpe:000000
+105f    774000      base-relative    nixbpe:110100
+1062    E32014      pc-relative      nixbpe:110010
+1065    332FFA      pc-relative      nixbpe:110010
+1068    53C003      base-relative    nixbpe:111100
+106b    DF200B      pc-relative      nixbpe:110010
+106e    B850        format 2         nixbpe:000000
+1070    3B2FEF      pc-relative      nixbpe:110010
+1073    032FFF      pc-relative      nixbpe:110010
+1076    4F0000      absolute         nixbpe:000000
+1079    05          simple           nixbpe:000000
+107a    NONE
